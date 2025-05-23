@@ -1,6 +1,7 @@
 external_components:
   - source: github://tobias-93/esphome-ecodan-heatpump@main
     components: [ ecodan ]
+    refresh: always
 
 logger:
   baud_rate: 0
